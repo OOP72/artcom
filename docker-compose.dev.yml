@@ -16,6 +16,7 @@ services:
       - MONGO_USER=artcom
       - MONGO_PASSWORD=Man2Frau
       - SESSION_SECRET=secret
+    
     command: npm run dev
   mongo:
     environment:
